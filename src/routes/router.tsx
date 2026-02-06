@@ -9,6 +9,7 @@ export function AppRoutes() {
          <Routes>
             <Route element={<HomeLayout />}>
                  <Route path="/tickets" element={<TicketsPage />} />
+                 <Route path="/dashboard" element={<p>Dashboard</p>} />
             </Route>
             
             <Route path="/" element={<SigninPage />} />
